@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+/* App.css */
+
+nav {
+  background-color: #007bff; /* Change the background color as needed */
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+li {
+  margin-right: 20px;
+}
+
+Link {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+Link:hover {
+  text-decoration: underline;
+}
